@@ -512,7 +512,7 @@ h6 {
 
 .page-header {
   padding-bottom: 17px;
-  margin: 18px 0px 18px 18px;   /* Changed margin: 18px 0; */
+  margin: 18px 0px 18px 18px;   /* Changed from margin: 18px 0; */
   border-bottom: 1px solid #eeeeee;
 }
 
