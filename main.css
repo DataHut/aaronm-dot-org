@@ -8,6 +8,19 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+ /*! 
+  * aaronm.org version 4.0
+  * extra tagging and modifications made by Aaron McCarthy
+  * Thanks to the Bootstrap team for putting out a great product!
+  */
+ 
+.extra-padding {                             /* Changed - added. needed padding on body */
+	padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+ 
+ 
 article,
 aside,
 details,
@@ -392,6 +405,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
+ /* padding-top: 100px; /* Changed - syntax did exist */
 }
 
 .container:before,
@@ -4941,10 +4955,12 @@ a.badge:hover {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #eeeeee;
+  marign-top: 80px; /* Changed from not being there. Added this line */
+  background-color: #f16529; /* Changes from  background-color: #eeeeee; */
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
+  color: white;  /* Changed - was not here originally. Inhereted black color  */
 }
 
 .hero-unit h1 {
